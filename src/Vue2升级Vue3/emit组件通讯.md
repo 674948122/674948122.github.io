@@ -1,6 +1,13 @@
-
-# $emit组件通讯
-
+---
+title: $emit组件通讯
+order: 2
+tag: 
+  - Vue3
+  - $emit
+  - 组件通讯
+  - emit
+  - defineEmit
+---
 ## vue2
 
 在vue2中的写法：

@@ -51,5 +51,5 @@ export const enNavbar = navbar([
   // },
 
   
-  { text: "文档", link: "/article/" },
+  { text: "文档", link: "/page.html" },
 ]);

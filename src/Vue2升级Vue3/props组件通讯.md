@@ -1,5 +1,7 @@
+---
+title: props组件通讯
+---
 
-# props组件通讯
 ## vue2
 vue2中的props写法：
 ```vue
