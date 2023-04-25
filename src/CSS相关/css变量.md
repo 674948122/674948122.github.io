@@ -12,7 +12,7 @@
 `content: attr(data-text);`
 
 
-```html
+```vue
 <template>
     <div class="demo" data-text="啦啦啦"></div>
 </template>

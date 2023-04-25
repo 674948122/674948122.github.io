@@ -1,5 +1,10 @@
 ---
 title: props组件通讯
+tag: 
+  - Vue3
+  - props
+  - 组件通讯
+  - defineProps
 ---
 
 ## vue2

@@ -1,6 +1,5 @@
 ---
 title: $emit组件通讯
-order: 2
 tag: 
   - Vue3
   - $emit

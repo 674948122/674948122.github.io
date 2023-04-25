@@ -11,19 +11,19 @@
 
 ```json
 "scripts": {
-    "lint-staged": "lint-staged",
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,vue}": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
+  "lint-staged": "lint-staged",
+},
+"husky": {
+  "hooks": {
+    "pre-commit": "lint-staged"
+  }
+},
+"lint-staged": {
+  "*.{js,vue}": [
+    "eslint --fix",
+    "git add"
+  ]
+},
 ```
 
 ## prettier

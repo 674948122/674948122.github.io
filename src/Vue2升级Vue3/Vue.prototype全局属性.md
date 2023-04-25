@@ -1,5 +1,10 @@
-
-# Vue.prototype全局属性
+---
+title: Vue.prototype全局属性
+tag: 
+  - Vue3
+  - Vue.prototype
+  - globalProperties
+---
 ## vue2
 vue2中可以通过Vue.prototype来定义全局属性，在组件中可以通过this来访问这些属性。
 

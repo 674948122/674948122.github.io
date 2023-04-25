@@ -1,5 +1,10 @@
-
-# watch监听数据
+---
+title: watch监听数据
+tag: 
+  - Vue3
+  - watch
+  - 监听数据
+---
 ## vue2
 vue2中的watch监听数据的方式有两种：
 ```vue

@@ -216,8 +216,8 @@ tools
 "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --fix --ext .js,.vue src",
- "lint:report": "eslint . --ext .js --format=html -o eslint-report.html",
-  }
+    "lint:report": "eslint . --ext .js --format=html -o eslint-report.html",
+}
 ```
 
 命令说明：

@@ -5,13 +5,13 @@
 
 启动终端并输入以下命令并按回车键：
 
-```
+```bash
 sudo rm -rfv /Library/Caches/com.apple.iconservices.store
 ```
 
 接下来，输入以下命令并按回车键：
 
-```
+```bash
 sudo find /private/var/folders/ \( -name com.apple.dock.iconcache -or -name com.apple.iconservices \) -exec rm -rfv {} \; ; sleep 3;sudo touch /Applications/* ; killall Dock; killall Finder
 ```
 

@@ -1,5 +1,10 @@
-
-# rer和refs
+---
+title: rer和refs
+tag: 
+  - Vue3
+  - ref
+  - $refs
+---
 
 ## vue2
 原来vue2中的ref和$refs是这样的：

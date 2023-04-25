@@ -1,5 +1,11 @@
-
-# refs组件通讯
+---
+title: refs组件通讯
+tag: 
+  - Vue3
+  - refs
+  - 组件通讯
+  - defineExpose
+---
 
 
 使用API选项时，我们可以通过this.$refs.name获取指定的元素或组件，但在组合API中不行。如果我们想通过ref获取，需要定义一个同名的Ref对象，在组件挂载后可以访问。
