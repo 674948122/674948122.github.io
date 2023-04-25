@@ -49,5 +49,5 @@ export const zhNavbar = navbar([
   //   icon: "note",
   //   link: "https://theme-hope.vuejs.press/zh/",
   // },
-  { text: "语法规范", icon: "repo", link: "/zh/eslint/" }
+  { text: "文档", link: "/page.html" },
 ]);
