@@ -1,9 +1,9 @@
 ---
 home: true
 layout: BlogHome
-# icon: home
+icon: home
 title: 主页
-# heroImage: /logo.jpeg
+heroImage: /logo.jpeg
 bgImage: /assets/images/bg-2.jpg
 heroText: PDG-DOC
 heroFullScreen: true
