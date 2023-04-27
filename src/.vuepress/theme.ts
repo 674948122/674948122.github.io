@@ -17,7 +17,13 @@ export default hopeTheme({
 
   logo: "/logo.jpeg",
 
-  repo: "https://github.com/674948122/674948122.github.io/tree/",
+  repo: "674948122/674948122.github.io",
+
+  repoId: "MDEwOlJlcG9zaXRvcnkxODY5Mjc4NDM=",
+
+  category: "Announcements",
+
+  categoryId: "DIC_kwDOCyRK484CWFdp",
 
   // docsDir: "",
 
