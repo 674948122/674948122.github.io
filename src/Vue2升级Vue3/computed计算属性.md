@@ -1,5 +1,9 @@
 ---
 title: computed计算属性
+tag: 
+  - Vue2
+  - Vue3
+  - computed
 ---
 
 
