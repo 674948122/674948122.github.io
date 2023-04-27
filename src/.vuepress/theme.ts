@@ -17,9 +17,9 @@ export default hopeTheme({
 
   logo: "/logo.jpeg",
 
-  repo: "674948122",
+  repo: "https://github.com/674948122/674948122.github.io/tree/",
 
-  docsDir: "docs",
+  // docsDir: "",
 
   blog: {
     medias: {
