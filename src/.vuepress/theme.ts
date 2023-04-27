@@ -25,7 +25,7 @@ export default hopeTheme({
 
   categoryId: "DIC_kwDOCyRK484CWFdp",
 
-  docsDir: "/",
+  docsDir: "src",
 
   blog: {
     medias: {
