@@ -7,6 +7,8 @@ index: false
 
 - [Vue2升级Vue3](Vue2升级Vue3)
 
+- [Vue3插件](Vue3插件)
+
 - [Eslint相关](Eslint相关)
 
 - [打包优化](打包优化)
@@ -18,6 +20,8 @@ index: false
 - [CSS相关](CSS相关)
 
 - [Mac相关](Mac相关)
+
+- [VSCode相关](VSCode相关)
 
 - [微前端架构](微前端架构)
 
