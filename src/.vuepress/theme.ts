@@ -19,12 +19,6 @@ export default hopeTheme({
 
   repo: "674948122/674948122.github.io",
 
-  repoId: "MDEwOlJlcG9zaXRvcnkxODY5Mjc4NDM=",
-
-  category: "Announcements",
-
-  categoryId: "DIC_kwDOCyRK484CWFdp",
-
   docsDir: "src",
 
   blog: {
@@ -95,8 +89,12 @@ export default hopeTheme({
     blog: true,
 
     comment: {
-      // @ts-expect-error: You should generate and use your own comment service
+      // ts-expect-error: You should generate and use your own comment service
       provider: "Giscus",
+      repo: "674948122/674948122.github.io",
+      repoId: "MDEwOlJlcG9zaXRvcnkxODY5Mjc4NDM=",
+      category: "Announcements",
+      categoryId: "DIC_kwDOCyRK484CWFdp",
     },
 
     // all features are enabled for demo, only preserve features you need here
