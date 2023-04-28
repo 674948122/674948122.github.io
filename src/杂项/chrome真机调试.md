@@ -26,3 +26,8 @@ tag:
 
 - 点击`inspect`，打开调试窗口
 
+## 微信环境H5调试
+
+- 打开微信，访问`http://debugxweb.qq.com/?inspector=true`，开启真机调试
+
+- 后面与普通H5调试一样
