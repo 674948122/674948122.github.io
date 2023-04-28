@@ -88,5 +88,13 @@ watch(id, async (newId, oldId, onCleanup) => {
   onCleanup(cancel)
   data.value = await response
 })
+
+
+// 监听computed
+const count = computed(() => state.count)
+
+watch(() => count, (newV, oldV) => {
+    console.log(newV, oldV)
+})
 </script>
 ```
