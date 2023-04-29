@@ -7,15 +7,15 @@ index: false
 
 - [Vue2升级Vue3](Vue2升级Vue3)
 
-- [Vue3插件](Vue3插件)
+- [Vue3](Vue3)
+
+- [Vue2](Vue2)
 
 - [Eslint相关](Eslint相关)
 
 - [打包优化](打包优化)
 
 - [node相关](node相关)
-
-- [Vue2](Vue2)
 
 - [CSS相关](CSS相关)
 
