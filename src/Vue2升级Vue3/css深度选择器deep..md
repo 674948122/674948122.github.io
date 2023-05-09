@@ -3,7 +3,7 @@ title: css深度选择器deep
 tag:
     - /deep/
     - ::v-deep
-    - :v-deep()
+    - ::v-deep()
     - css
 ---
 
@@ -34,11 +34,11 @@ tag:
 
 ## vue3
 
-在Vue3中，`/deep/`和`::v-deep`已经被废弃了，取而代之的是`:v-deep()`。
+在Vue3中，`/deep/`和`::v-deep`已经被废弃了，取而代之的是`::v-deep()`。
 
 ```css
 <style scoped>
-    .container :v-deep(.box) {
+    .container ::v-deep(.box) {
         color: red;
     }
 </style>
