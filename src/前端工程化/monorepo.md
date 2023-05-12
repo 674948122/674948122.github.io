@@ -254,3 +254,31 @@ const { DemoComponent } = mathComponents
 ## 结语
 
 至此,关于项目中引入`monorepo`模块就完成了,其它分包则根据具体业务需要自行扩展
+
+## 常用命令
+
+### pnpm
+
+#### 运行
+
+需要进入到对应的子项目目录下运行。
+
+```bash
+pnpm run dev
+```
+
+或者在根目录下运行。
+
+```bash
+pnpm run --filter ./packages/project-a dev
+```
+
+### lerna
+
+#### 运行
+
+根目录下运行，会同时运行所有子项目的`dev`命令。
+
+```bash
+lerna run dev
+```
