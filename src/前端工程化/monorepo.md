@@ -251,9 +251,7 @@ const { DemoComponent } = mathComponents
 </template>
 ```
 
-## 结语
 
-至此,关于项目中引入`monorepo`模块就完成了,其它分包则根据具体业务需要自行扩展
 
 ## 常用命令
 
@@ -282,3 +280,9 @@ pnpm run --filter ./packages/project-a dev
 ```bash
 lerna run dev
 ```
+
+## 结语
+
+至此,关于项目中引入`monorepo`模块就完成了,其它分包则根据具体业务需要自行扩展
+
+[项目地址](https://github.com/674948122/monorepo-workspace)
