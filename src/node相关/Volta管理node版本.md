@@ -29,6 +29,9 @@ tag:
 
 ## 安装
 
+### macOS 和 Linux
+
+
 在包括`macOS`在内的大多数`Unix`系统上，您可以使用单个命令安装`Volta`：
 
 ```bash
@@ -60,6 +63,21 @@ source ~/.zshrc
 ```bash
 1.1.1
 ```
+
+### Windows
+
+对于 Windows， 下载并运行 [Windows 安装程序](https://github.com/volta-cli/volta/releases/download/v1.1.1/volta-1.1.1-windows-x86_64.msi) 并按照说明进行操作。
+
+`Volta` 的功能取决于创建符号链接，因此您必须：
+
+- 启用[开发者模式](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development#accessing-settings-for-developers)（推荐）
+- 以提升的权限运行 `Volta`（不推荐）
+
+### Linux 的 Windows 子系统
+
+如果您在 `Linux` 的 `Windows` 子系统中使用 `Volta`，请按照上面的 `macOS 和 Linux` 安装指南进行操作。
+
+
 
 ## 使用
 
