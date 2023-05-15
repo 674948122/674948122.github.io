@@ -1,31 +1,35 @@
-<template>
-    <Teleport to="body">
-        <div id="container"></div>
-    </Teleport>
-</template>
 
 <script>
+
 export default {
     name: "Nebulon",
-    components: {},
-    data() {
-        return {};
+    data(){
+        return {
+            isLoad: false
+        }
     },
-    computed: {},
-    created() {},
+    render(){},
     mounted() {
+        this.load()
+    },
+    beforeDestroy() {
 
     },
-    beforeDestroy() {},
-    methods: {},
+    methods: {
+        load(){
+            const wrap = document.querySelector('.blog-hero .mask')
+
+            const frameDom = document.createElement('iframe')
+            frameDom.src = '/assets/nebulon/index.html'
+            frameDom.id = 'nebulon'
+            frameDom.style.cssText = `
+                width: 100%;
+                height: 100%;
+                border: none;
+            `
+            wrap.appendChild(frameDom)
+        }
+    },
 };
 </script>
 
-<style lang="scss" scoped>
-#container {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-}
-</style>
