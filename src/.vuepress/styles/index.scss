@@ -2,3 +2,7 @@
 .blog-hero .hero-image, .navbar .logo, .blogger-info .blogger-avatar{
     border-radius: 50%;
 }
+.blog-hero .mask{
+    opacity: 0;
+    pointer-events: none;
+}
