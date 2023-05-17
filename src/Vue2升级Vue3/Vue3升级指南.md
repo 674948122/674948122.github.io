@@ -40,6 +40,8 @@ Vue 2官方还会再维护两年，但两年后的问题和需求，官方就不
 
 [Element Plus](https://element-plus.gitee.io/zh-CN/guide/design.html)
 
+[VueUse](https://www.vueusejs.com/)
+
 ## 代码规范
 
 使用 Prettier + ESLint + Husky 组合来实现代码规范化。
