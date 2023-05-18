@@ -14,12 +14,10 @@ tag:
 ```js
 import { debounce } from '@/utils/index.js'
 
-export default function useHook() {
-    let proxy = null
+export default function useResize(callback) {
     let resizeHandler = null
 
     onMounted(() => {
-        proxy = getCurrentInstance() // 获取实例中的proxy
         initListener()
     })
 
@@ -36,7 +34,7 @@ export default function useHook() {
     }
 
     function resize() {
-        proxy.exposed.resize() // 调用组件暴露的函数
+        callback && callback()
     }
 }
 ```
@@ -44,18 +42,16 @@ export default function useHook() {
 
 ```vue
 <script setup>
-import useHook from '@/hooks/useHook.js'
+import useResize from '@/hooks/useResize.js'
 
 function resize() {
     // do something
     console.log('浏览器resize')
 }
 
-// 暴露函数 （供hook调用）
-defineExpose({
-  resize,
-});
 
-useHook()
+useResize(() => {
+    resize()
+})
 </script>
 ```
