@@ -1,0 +1,1 @@
+import{_ as n,E as o,Z as t,$ as c,a0 as _}from"./framework-4b017f08.js";const r={};function s(a,l){const e=o("Nebulon");return t(),c("div",null,[_(e)])}const d=n(r,[["render",s],["__file","index.html.vue"]]);export{d as default};
