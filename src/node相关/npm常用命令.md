@@ -7,3 +7,9 @@ title: npm常用命令
 ```bash
 npm cache clean --force
 ```
+
+## 忽略冲突
+
+```bash
+npm i --legacy-peer-deps
+```
