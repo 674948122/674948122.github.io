@@ -39,6 +39,12 @@ nvm use 8.9.4               // 切换到指定版本的node.js
 nvm uninstall 8.9.4         // 卸载指定版本的node.js
 ```
 
+### 设置默认版本
+
+```bash
+nvm alias default 8.9.4     // 设置默认版本
+```
+
 ### 设置项目的node版本
 
 在项目根目录下创建`.nvmrc`文件，文件内容为node版本号，如`v8.9.4`，然后在项目根目录下执行`nvm use`命令，就会自动切换到指定版本的node。
